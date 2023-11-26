@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Success Page</title>
+    <style>
+        body {
+            background-color: red;
+            color: white;
+            font-family: Arial, sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            text-align: center;
+        }
+
+        div {
+            margin-top: 50px;
+            opacity: 0; /* Initially set to be invisible */
+            animation: fadeIn 2s ease-out forwards; /* Animation properties */
+        }
+
+        h1, p {
+            color: white;
+        }
+
+        @keyframes fadeIn {
+            to {
+                opacity: 1; /* Fade in the element */
+            }
+        }
+    </style>    
+</head>
+<body>
+    <div>
+        <h1>Message Sent Successfully!</h1>
+        <p>Thank you for reaching out. We will get back to you as soon as possible.</p>
+    </div>
+</body>
+</html>
